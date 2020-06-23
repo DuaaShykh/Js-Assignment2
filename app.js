@@ -393,7 +393,10 @@ document.write(" </br> Gross Amount Payable (after Due Date):"+grossAmount );
 
 //Question1
 var d = new Date();
-document.write(d);
+function date(d){
+alert(d);
+}
+date(d);
 
 //Question2
 function greet(firstName,secondName)
